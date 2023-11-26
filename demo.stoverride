@@ -1,0 +1,15 @@
+name: 显示当前 IP 地址
+desc: 用于显示当前 IP 地址的 Stash 面板
+
+tiles:
+  - name: External-IP-Tile
+    interval: 1800
+    title: '当前 IP 地址'
+    content: '未知的'
+    icon: 'network'
+    backgroundColor: '#663399'
+
+script-providers:
+  External-IP-Tile:
+    url: https://github.com/JavanShen/Stash/blob/main/demo.js
+    interval: 86400
